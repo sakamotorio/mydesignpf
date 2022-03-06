@@ -1,0 +1,698 @@
+#projectlines{
+    display: flex-box;
+    position:absolute;
+    float:left;
+    width: 24%;
+    height: 100%;
+    margin-left: 12%;
+    color: rgb(0, 0, 50);   
+}
+#graphic1 {
+    position:absolute;
+    display:flex;
+    font-size:300%;
+    width: 0%;
+    margin-top: 24%;
+    margin-left: 12%;
+    font-weight: bold;
+    align-items: center;
+    z-index: 2;
+     animation-name:graphicappears;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  overflow: hidden;
+  color: rgb(0, 0, 50);
+  }
+#projects1{
+    position:absolute;
+    display:flex;
+    font-size:300%;
+    width: 0%;
+    margin-top: 32%;
+    margin-left: 12%;
+    font-weight: bold;
+    align-items: center;
+    z-index: 2;
+   animation-name: graphicappears;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  overflow: hidden;
+  color: rgb(0, 0, 50);
+  }
+/*appear animation for about*/
+@keyframes graphicappears{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 45%;opacity: 1;}    
+}
+@keyframes graphicdisappears{
+    0% {width: 45%;opacity: 1;}
+    100% {width: 0%;opacity: 0;}    
+}
+
+#projectline1{
+    display: flex;
+    position: absolute;
+    margin-top: 200%;
+    border: red solid;
+    width: 70%;
+    height: 1px;
+    border-radius: 10px; 
+    animation-name: projectlinesappear1;  
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+#projectline2{
+    display: flex;
+    position: absolute;
+    margin-top: 215%;
+    border: red solid;
+    width: 40%;
+    height: 1px;
+    border-radius: 10px;
+    animation-name: projectlinesappear2;  
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 1;   
+}
+@keyframes projectlinesappear1{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 70%;opacity: 1;}    
+}
+@keyframes projectlinesappear2{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 40%;opacity: 1;}    
+}
+@keyframes projectlinesdisappear1{
+    0% {width: 70%;opacity: 1;}
+    100% {width: 00%;opacity: 0;}    
+}
+@keyframes projectlinesdisappear2{
+    0% {width: 40%;opacity: 1;}
+    100% {width: 0%;opacity: 0;}    
+}
+#clickprojects{
+    display: flex;
+    position: absolute;
+    margin-top: 140%;
+    font-size: 130% ;
+    float: left;
+    height: 20%;
+    font-weight: bolder;
+    width: 140%;
+    color: rgb(0, 0, 50);
+    animation-name: clickprojectsappears;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 3;
+    overflow: hidden;
+}
+@keyframes clickprojectsappears{
+    0% {height: 00%;opacity: 0;}
+    100% {height: 15%;opacity: 1;}    
+}
+@keyframes clickprojectsdisappears{
+    0% {height: 15%;opacity: 1;}
+    100% {height: 00%;opacity: 0;}    
+}
+#projectsbutton{
+    display: flex;
+    position: absolute;
+    margin-top: 370%;
+    float: left;
+    font-weight: bolder;
+    border-radius: 100px;
+    background-color: red;
+    margin-left: 50%;
+    width: 100px;
+    height: 0px;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    color: rgb(1, 1, 31);;
+    border:none;
+    animation-name: projectsbuttonappears;  
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    
+    z-index: 3;
+    overflow: hidden;
+}
+@keyframes projectsbuttonappears{
+    0% {height: 0px;opacity: 0;}
+    100% {height: 40px;opacity: 1;}    
+}
+@keyframes projectsbuttondisappears{
+    0% {height: 40px;opacity: 1;}
+    100% {height: 00px;opacity: 0;}    
+}
+/* transition night 2 */
+#smallpicproject0night2{
+  display: flex;
+  position:absolute;
+  float: left;
+  width: 230%;
+  height: 72%;
+  top: 16%;
+  left: 110%;
+  z-index: -2;
+  transition-duration: 2s;
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name:none;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes project0night2animation {
+    00% { opacity: 0;width: 230%;height: 72%;top: 16%;left: 110%;}
+    100% { opacity: 1;width: 417.8%;height: 100%;top: 0%;left: 366.8%;}
+}
+@keyframes project0night2animationfade {
+    00% {opacity: 1;width: 500%;height: 100%;top: 0%;left: 366.8%;}
+    100% {opacity: 0;width: 230%;height: 72%;top: 16%;left: 110%; }
+}
+
+#smallpicanimation0project{
+  left: 25%;
+  display: flex;
+  position:absolute;
+  float: left;
+  width: 230%;
+  height: 72%;
+  top: 16%;
+  left: 110%;
+  z-index: 1;
+  opacity: 1;
+  animation-duration: 0.8s;
+  animation-name:none;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  transition-duration: 2s;
+  box-shadow: 2px -2px rgb(37, 37, 56);
+    border-radius: 80px 10px 80px 10px;
+    overflow: hidden;
+}
+#smallpicanimation1project{
+  display: flex;
+  position:absolute;
+  float: left;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: rgb(0, 0, 50);
+  opacity: 1;
+  animation-duration: 1s;
+  animation-name:smallpicanimation1; 
+  animation-timing-function: ease-out;
+  animation-fill-mode:forwards;
+  transition-duration: 2s;
+  border-radius: 80px 10px 80px 10px;
+}
+#smallpicanimation2project{
+  display: flex;
+  position:absolute;
+  float: left;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color:red ;
+  opacity: 1;
+  animation-duration: 0.9s;
+  animation-name:smallpicanimation1;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
+  transition-duration: 2s;
+  border-radius: 80px 10px 80px 10px;
+}
+
+#smallpic2project{
+    display: flex;
+    position:absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    transition-duration: 2s;
+  }
+/*appear animation for small pic*/
+@keyframes smallpicanimation1{
+    25% { height: 100%; width: 100%;}
+    100% { height: 00%; width: 0%;}    
+}
+ 
+@keyframes smallpicanimation0{
+    0% { height: 50%; width: 200%;/*align-items: center;*/}
+    100% { height: 72%; width: 230%;/*align-items: center;*/}
+   }
+/*disappear animation for small pic*/
+@keyframes smallpicanimation12{
+    0% { height: 00%; width: 0%;/*align-items: center;*/}
+    100% { height: 100%; width: 100%;/*align-items: center;*/}    
+}
+ 
+@keyframes smallpicanimation02{
+    0% { height: 72%; width: 230%;/*align-items: center;*/}
+    100% { height: 50%; width: 100%;/*align-items: center;*/}
+   }
+
+@media only screen and (max-width:600px) {    
+    #graphic1 {font-size: 300%;margin-top: 24%;}
+    #contactme {font-size: 300%;margin-top: 24%;}
+    #projects1 {font-size: 300%;margin-top: 32%;}
+    #projectline1 { margin-top: 200%;}
+    #projectline2 { margin-top: 215%;}
+    #clickprojects {margin-top: 240%;}
+    #projectsbutton {font-size: 110%;margin-top: 370%;margin-left: 50%;}
+} 
+@media only screen and (min-width:600px) {    
+    #graphic1 {font-size: 450%;margin-top: 17%;}
+    #contactme {font-size: 450%;margin-top: 17%;}
+    #projects1 {font-size: 450%;margin-top: 24%;}
+    #projectline1 { margin-top: 160%;}
+    #projectline2 { margin-top: 175%;}
+    #clickprojects {margin-top: 180%;} 
+    #projectsbutton {font-size: 110%;margin-top: 250%;margin-left: 50%;}
+} 
+@media only screen and (min-width:900px) {
+    #graphic1 {font-size: 600%;margin-top: 10%;}
+    #contactme {font-size: 600%;margin-top: 10%;}
+    #projects1 {font-size: 600%;margin-top: 17%;}
+    #projectline1 { margin-top: 110%;}
+    #projectline2 { margin-top: 120%;}
+    #clickprojects {margin-top: 140%;}
+    #projectsbutton {font-size: 110%;margin-top: 170%;margin-left: 50%;}
+} 
+
+
+                                        /* page 000*/
+#page000{
+    display:none;
+    width: 100%;
+    height: 100%;
+    position:absolute;  
+    z-index: -1;
+    opacity: 1;
+    overflow: hidden;
+    animation-name: none;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+}                                 
+@keyframes page000disappears {
+    00% {display: flex;}
+    100% {display: none;}
+}  
+
+#leftarrow2{
+    display: none;
+    position: fixed;
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: 80px;
+    z-index: 5;
+    overflow: hidden;
+    opacity: 1;
+    transition-duration: 2s;
+}
+#leftarrow2 image{
+    width: 100%;
+} 
+/*
+#night2 {
+    position: absolute;
+    display: flex;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    height: 100%;
+    z-index: -5;
+    animation-name: night2animation1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    opacity: 0; 
+}  
+@keyframes night2animation1 {
+    00% { opacity: 0;}
+    100% { opacity: 1;}
+}
+@keyframes night2animation2 {
+    00% { opacity: 1;}
+    100% { opacity: 0;}
+}
+*/
+
+                                                    /* slider */
+
+
+/* Slideshow container */
+
+.slideshowmothercontainer{
+  display: none;
+  position: absolute;
+   width: 50%;
+  height: 80%;
+  top: 10%;
+  float: left;
+  left: 25%;
+  animation-duration: 1.4s;
+  animation-fill-mode: forwards;
+  animation-name: none;
+  overflow:hidden ;
+  z-index: -1;
+  opacity: 1;
+}
+.itemsalign{
+    display: flex;
+    align-items: center;   
+}
+
+@keyframes slidecontainershow {
+    00% {width: 00%;opacity: 0;}
+    100% {width: 50%;opacity: 1;}
+}
+@keyframes slidecontainerhide {
+    00% {width: 50%;opacity: 1;}
+    100% {width: 00;opacity: 0;}
+}
+/*
+.slideshow-container {
+  display: none;
+  position: absolute;
+  width: 50%;
+  height: auto;
+  min-height: 60%;
+  top: 20%;
+  float: left;
+  left: 25%;
+  animation-duration: 1.4s;
+  animation-fill-mode: forwards;
+  animation-name: none;
+  /*overflow: hidden;
+}
+ /*
+@keyframes slidecontainershow {
+    00% {width: 00%;opacity: 0;}
+    100% {width: 50%;opacity: 1;}
+}
+@keyframes slidecontainerhide {
+    00% {width: 50%;opacity: 1;}
+    100% {width: 00;opacity: 0;}
+}
+*/
+/* Hide the images by default */
+
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+
+.fade0 {
+  -webkit-animation-name: fade0;
+  -webkit-animation-duration: 1.5s; 
+  animation-name: fade0;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade0 {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+
+@keyframes fade0 {
+  from {opacity: 0.4}
+  to {opacity: 1}
+}
+#owlsays{
+    display: flex;
+    position: fixed;
+    float: left;
+    left: 90px;
+    width: 40px;
+    height: 420px;
+    margin-top: 100px;
+    z-index: 5;
+    overflow: hidden;
+    opacity: 1;
+    color: mintcream;
+}
+#owl1says{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 0px;
+    background-color: rgb(105, 76, 76);
+    margin-left: 5px;
+    width: 30px;
+    animation-name:none;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0.6;
+}
+#owl2says{
+    display: flex;
+    position: absolute;
+    top: 110px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 0px;
+    background-color: rgba(78, 35, 35, 0.87);
+    margin-left: 5px;
+    width: 30px;
+    animation-name:none;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0.6;
+}
+#owl3says{
+    display: flex;
+    position: absolute;
+    top: 230px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 00px;
+    background-color: grey;
+    margin-left: 5px;
+    width: 30px;
+    animation-name:none;
+    overflow: hidden;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0.5;
+}
+@keyframes owlsaysappear {
+    00% {height: 00px;}
+    100% {height: 200px;}
+}
+@keyframes owlsaysdisappear {
+    00% {height: 200px;}
+    100% {height: 00px;}
+}
+#flowers{
+    display: flex;
+    position: fixed;
+    float: left;
+    width: 82px;
+    height: 0px;
+    margin-top: 150px;
+    z-index: 5;
+    overflow: hidden;
+    opacity: 1;
+    transition-duration: 2s;
+    animation-name:flowersappear;
+    overflow: hidden;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes flowersappear {
+    0% {height:  00px;}
+    100% {height:  420px;}
+}
+@keyframes flowersdisappear {
+    0% {height:  420px;}
+    100% {height:  00px;}
+}
+
+#flower1 {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 60px;
+    height: 98.5px;
+    margin-left: 20px;
+    animation-name:none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    align-items: center;
+    justify-content: center;
+}
+#owl1head{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 53px;
+    height: 44.2px;
+    animation-name: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;  
+    animation-play-state: running;
+}
+#owl2head{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 53px;
+    height: 44.2px;
+    animation-name: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;  
+    animation-play-state: running;
+}
+@keyframes headrotate12 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-20deg);}
+    100% {transform: rotate(20deg);}   
+}
+@keyframes headrotate22 {
+    00% {transform: rotate(20deg);}
+    100% {transform: rotate(0deg);}
+}
+#owl3head{
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 53px;
+    height: 44.2px;
+    animation-name: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;  
+    animation-play-state: running;
+}
+@keyframes headrotate1 {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(20deg);}
+    100% {transform: rotate(-20deg);}   
+}
+@keyframes headrotate2 {
+    00% {transform: rotate(-20deg);}
+    100% {transform: rotate(0deg);}
+}
+#flower2 {
+    display: flex;
+    position: absolute;
+    top: 110px;
+    width: 60px;
+    height: 98.5px;
+    margin-left: 20px;
+    animation-name:none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    align-items: center;
+    justify-content: center;
+}
+#flower3 {
+    display: flex;
+    position: absolute;
+    top: 220px;
+    width: 60px;
+    height: 98.5px;
+    margin-left: 20px;
+    animation-name:none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    align-items: center;
+    justify-content: center;
+}
+
+/* dark night templates */
+#darknightherb{
+    display: flex;
+    animation-name:none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    z-index: 5;
+    opacity: 0;
+}
+@keyframes herbanimation {
+    00% {opacity: 0;margin-top: 100%;}
+    100% {opacity: 1;margin-top: 0%;}
+}
+@keyframes herbanimationfade {
+    00% {opacity: 1;margin-top: 0%;}
+    100% {opacity: 0;margin-top: 100%;}
+}
+
+#darknightmountain1{
+    display: flex;
+    animation-name:none;
+    animation-duration: 1.2s;
+    animation-fill-mode: forwards;
+    z-index:4 ;
+    margin-top: 16px;
+    opacity: 0;
+    animation-delay: 2s;
+}
+@keyframes mountain1animation {
+    00% {opacity: 0;width: 00%;}
+    100% {opacity: 1;mwidth: 100%;}
+}
+@keyframes mountain1animationfade {
+    00% {opacity: 1;width: 100%;}
+    100% {opacity: 0;mwidth: 0%;}
+}
+#darknightmountain2{
+    display: flex;
+    animation-name:none;
+    animation-duration: 1.4s;
+    animation-fill-mode: forwards;
+    z-index: 3;
+    opacity: 0;
+    animation-delay: 2.5s;
+}
+#darknightstars{
+    display: flex;
+    animation-name:none;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    z-index: 0;
+    opacity: 0;
+    animation-delay: 3s;
+}
+@keyframes starsanimation {
+    00% {opacity: 0;margin-top: -100%;}
+    100% {opacity: 1;margin-right: 0%;}
+}
+@keyframes starsanimationfade {
+    00% {opacity: 1;margin-top: 0%;}
+    100% {opacity: 0;margin-right: -100%;}
+}
+#darknightfog{
+    display: flex;
+    animation-name:none;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    z-index: 5;
+    opacity: 0;
+    animation-delay: 3.5s;
+}
+
+#moonreflection{
+    margin-left: -150px;
+    display: flex;
+    z-index: 6;
+    opacity: 1;
+    filter: url("#Turbulence");
+}
+

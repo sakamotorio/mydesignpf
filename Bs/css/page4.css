@@ -1,0 +1,268 @@
+#contactme {
+    position:absolute;
+    display:flex;
+    font-size:300%;
+    width: 0%;
+    margin-top: 24%;
+    margin-left: 12%;
+    font-weight: bold;
+    align-items: center;
+    z-index: 2;
+    line-height: 1;
+     animation-name:contactappears;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  overflow: hidden;
+  color: rgb(0, 0, 50);
+  }
+  @keyframes contactappears{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 60%;opacity: 1;}    
+}
+@keyframes contactdisappears{
+    0% {width: 60%;opacity: 1;}
+    100% {width: 0%;opacity: 0;}    
+}
+#contactme2{
+    position:fixed;
+    display:inline;
+    font-size:300%;
+    width: 60%;
+    margin-top: 32%;
+    margin-left: 12%;
+    font-weight: bold;
+    align-items: center;
+    z-index: 2;
+    animation-name: contactappears;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  overflow: hidden;
+  color: rgb(0, 0, 50);
+  }
+
+#contactlines{
+    display: flex-box;
+    position:absolute;
+    float:left;
+    width: 24%;
+    height: 100%;
+    margin-left: 12%;
+    color: rgb(0, 0, 50);
+ 
+}
+#contactline1{
+    display: flex;
+    position: absolute;
+    margin-top: 200%;
+    border: red solid;
+    width: 70%;
+    height: 1px;
+    border-radius: 10px; 
+    animation-name: contactlinesappear1;  
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+}
+#contactline2{
+    display: flex;
+    position: absolute;
+    margin-top: 215%;
+    border: red solid;
+    width: 40%;
+    height: 1px;
+    border-radius: 10px;
+    animation-name: contactlinesappear2;  
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 1;  
+}
+@keyframes contactlinesappear1{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 70%;opacity: 1;}    
+}
+@keyframes contactlinesappear2{
+    0% {width: 0%;opacity: 0;}
+    100% {width: 40%;opacity: 1;}    
+}
+@keyframes contactlinesdisappear1{
+    0% {width: 70%;opacity: 1;}
+    100% {width: 00%;opacity: 0;}    
+}
+@keyframes contactlinesdisappear2{
+    0% {width: 40%;opacity: 1;}
+    100% {width: 0%;opacity: 0;}    
+}
+
+#clickcontacts{
+    display: flex;
+    position: absolute;
+    margin-left: 12%;
+    font-size: 130% ;
+    float: left;
+    top: 0;
+    width: 210px;
+    height: 10%;
+    font-weight: bolder;
+    color: rgb(0, 0, 50);
+    animation-name: clickcontactsappears;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 3;
+    overflow: hidden;
+   /* background-color: turquoise; */
+    line-height: 2.5;
+}
+#mynumber{
+    display: flex;
+    position: absolute;
+    margin-left: 12%;
+    font-size: 130% ;
+    float: left;
+    top: 0;
+    width: 200px;
+    height: 80px;
+    font-weight: bolder;
+    color: rgb(0, 0, 50);
+    animation-name: clickcontactsappears;  
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 3;
+    overflow: hidden;
+ /*   background-color: green;  */
+    line-height: 2.5;
+}
+@keyframes clickcontactsappears{
+    0% {height: 00px;opacity: 0;}
+    100% {height: 80px;opacity: 1;}    
+}
+@keyframes clickcontactsdisappears{
+    0% {height: 80px;opacity: 1;}
+    100% {height: 00px;opacity: 0;}    
+}
+#fbcontact{
+    display: flex;
+    position: absolute;
+    float: left;
+    width:25px;
+    height: 25px;
+  /*  background-color: wheat;  */
+    align-items: center;
+    margin-left: 70px;
+    
+}
+
+@media only screen and (max-width:600px) {    
+    #contactme {font-size: 300%;margin-top: 26%;}
+    #contactme2 {font-size: 300%;margin-top: 32%;}
+    #contactline1 { margin-top: 200%;}
+    #contactline2 { margin-top: 215%;}
+    #clickcontacts{margin-top: 60%;}
+    #mynumber {margin-top: 68%;}
+    #fbcontact {margin-top:50px;}
+    #contactsbutton {font-size: 110%;margin-top: 370%;margin-left: 50%;}
+} 
+@media only screen and (min-width:600px) {    
+    #contactme {font-size: 450%;margin-top: 20%;}
+    #contactme2 {font-size: 450%;margin-top: 24%;}
+    #contactline1 { margin-top: 160%;}
+    #contactline2 { margin-top: 175%;}
+    #clickcontacts {margin-top: 45%;} 
+    #mynumber {margin-top: 50%;}
+    #fbcontact {margin-top: 50px;}
+    #contactsbutton {font-size: 110%;margin-top: 250%;margin-left: 50%;}
+} 
+@media only screen and (min-width:900px) {
+    #contactme {font-size: 600%;margin-top: 12%;}
+    #contactme2 {font-size: 600%;margin-top: 17%;}
+    #contactline1 { margin-top: 110%;}
+    #contactline2 { margin-top: 120%;}
+    #clickcontacts {margin-top: 30%;}
+    #mynumber {margin-top: 33%;}
+    #fbcontact {margin-top: 50px;} */
+    #contactsbutton {font-size: 110%;margin-top: 170%;margin-left: 50%;}
+}
+
+/*animation */
+
+#contactpic{
+  /*  left: 25%; */
+    display: flex;
+    position:absolute;
+    float: left;
+    width: 25%;
+    height: 50%; 
+    top: 16%;
+    left: 38.5%;
+    z-index: 1;
+    opacity: 1;
+    animation-duration: 0.8s;
+    animation-name:none;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    transition-duration: 2s;
+    box-shadow: 2px -2px rgb(37, 37, 56);
+    border-radius: 80px 10px 80px 10px;
+    overflow: hidden;
+  }
+@keyframes contactpicappears {
+    00% { width: 25%; height: 50%;}
+    100% { width: 55%; height: 72%;}   
+}
+@keyframes contactpicdisappears {
+    00% { width: 55%; height: 72%;}
+    100% { width: 25%; height: 50%;}   
+}
+  #smallpicanimation1contact{
+    display: flex;
+    position:absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background-color: rgb(0, 0, 50);
+    opacity: 1;
+    animation-duration: 1.4s;
+    animation-name:none; 
+    animation-timing-function: ease-out;
+    animation-fill-mode:forwards;
+    border-radius: 80px 10px 80px 10px;
+  }
+  #smallpicanimation2contact{
+    display: flex;
+    position:absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color:red ;
+    opacity: 1;
+    animation-duration: 1s;
+    animation-name:none;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    transition-duration: 2s;
+    border-radius: 80px 10px 80px 10px;
+  }
+  #smallpiccontact{
+    display: flex;
+    position:absolute;
+    float: left;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    transition-duration: 2s;
+  }
+
+@keyframes smallpiccontactdis{
+    0% { height: 100%; width: 100%;align-items: center;}
+    100% { height: 00%; width: 0%;align-items: center;}    
+}
+@keyframes smallpiccontact{
+    0% { height: 0%; width: 0%;align-items: center;}
+    100% { height: 100%; width: 100%;align-items: center;}    
+}
+ 
+  
